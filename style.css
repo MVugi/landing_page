@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px;
+}
+.header {
+  /*     border: 2px solid red; */
+  background: #1f2937;
+  display: flex;
+  flex: 0;
+  justify-content: space-between;
+  padding: 0px 300px;
+}
+.header-logo {
+  /*     border: 2px solid red; */
+  font-size: 24px;
+  color: #f9faf8;
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.header-links {
+  /*     border: 2px solid red; */
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  gap: 16px;
+  padding: 0px;
+  justify-content: flex-end;
+}
+.header-links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.hero {
+  /*     border: 2px solid red; */
+  background: #1f2937;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 300px 100px 300px;
+}
+.hero-container {
+/*   border: 2px solid red; */
+  display: flex;
+  flex: 1;
+  gap: 32px;
+}
+.hero-text {
+/*   border: 2px solid red; */
+  flex: 1;
+  padding: 100px 0px;
+}
+.hero-text-main {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.hero-text-secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.sign-up-button,
+.cta-button {
+  background: #3882f6;
+  color: #f9faf8;
+  text-decoration: none;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-top: 12px;
+}
+.hero-image {
+/*   border: 2px solid red; */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+}
+.info {
+  /*    border: 2px solid red; */
+  background: #f9faf8;
+  flex: 1;
+  padding: 50px 500px 100px 500px;
+}
+.info-header {
+  /*     border: 2px solid red; */
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+  padding: 50px 50px;
+}
+.card-container {
+  /*     border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+}
+.card {
+  /*     border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  flex: 0;
+  margin: 0px 30px 30px 30px;
+}
+.pic {
+  width: 200px;
+  height: 200px;
+  background: white;
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+}
+.subtext {
+  /*     border: 2px solid red; */
+  flex: 1;
+  text-align: center;
+}
+
+.quote-section {
+  /*     border: 2px solid red; */
+  background: #e5e7eb;
+  flex: 1;
+  padding: 150px 500px;
+}
+
+.textbox {
+  /*     border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  /*     align-items: center; */
+}
+
+.quote {
+  /*     border: 2px solid red; */
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+  flex: 1;
+}
+
+.author {
+  /*     border: 2px solid red; */
+  font-size: 18px;
+  font-weight: bold;
+  color: #1f2937;
+  flex: 1;
+  text-align: end;
+}
+
+.cta-section {
+  /*   border: 2px solid red; */
+  background: #f9faf8;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 300px 100px 300px;
+}
+
+.cta-window {
+  /*     border: 2px solid red; */
+  flex: 1;
+  display: flex;
+  background: #3882f6;
+  border-radius: 8px;
+  padding: 50px 200px;
+}
+
+.cta-container {
+  /*     border: 2px solid red; */
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-text-container {
+  /*     border: 2px solid red; */
+  flex: 1;
+  margin-right: auto;
+}
+
+.cta-text-big {
+  /*     border: 2px solid red; */
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.cta-text-small {
+  /*     border: 2px solid red; */
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+.cta-button-container {
+  /*     border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  flex: 0;
+}
+
+.cta-button-container > .cta-button {
+  border: 3px solid #f9faf8;
+  padding: 8px 28px;
+  width: 150px;
+  flex: 1;
+  margin-top: 0px;
+}
+
+.footer {
+  background: #1f2937;
+  font-size: 18px;
+  color: #e5e7eb;
+  flex: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+}
